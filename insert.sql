@@ -10,14 +10,14 @@ insert into publisher (name , country) values ('Vintage' , 'UK');
 --inserting values into books table
 
 
-insert into books (title , publisher) values ('The C Programming Language' , 'PHI');
-insert into books (title , publisher) values ('The Go Programming Language' , 'PHI');
-insert into books (title , publisher) values ('The UNIX Programming Environment' , 'PHI');
-insert into books (title , publisher) values ('Cryptonomicon' , 'Harper');
-insert into books (title , publisher) values ('Deep Work' , 'GCP');
-insert into books (title , publisher) values ('Atomic Habit' , 'Avery');
-insert into books (title , publisher) values ('The City And The City' , 'Del Rey');
-insert into books (title , publisher) values ('The Great War for Civilisation' , 'vintage');
+insert into books (title , publisher) values ('The C Programming Language' , 1);
+insert into books (title , publisher) values ('The Go Programming Language' , 1);
+insert into books (title , publisher) values ('The UNIX Programming Environment' , 1);
+insert into books (title , publisher) values ('Cryptonomicon' , 2);
+insert into books (title , publisher) values ('Deep Work' , 3);
+insert into books (title , publisher) values ('Atomic Habits' , 4);
+insert into books (title , publisher) values ('The City And The City' , 5);
+insert into books (title , publisher) values ('The Great War for Civilisation' , 6);
 
 
 --insert values into subjects table
@@ -33,4 +33,23 @@ insert into subjects (name) values ('Politics');
 insert into subjects (name) values ('History');
 
 
---insert values into
+--insert values into books_subjects table
+
+
+insert into books_subjects(book,subject) values (1,1);
+insert into books_subjects(book,subject) values (1,2);
+insert into books_subjects(book,subject) values (1,3);
+insert into books_subjects(book,subject) values (2,4);
+insert into books_subjects(book,subject) values (2,3);
+insert into books_subjects(book,subject) values (3,2);
+insert into books_subjects(book,subject) values (3,3);
+insert into books_subjects(book,subject) values (4,3);
+insert into books_subjects(book,subject) values (4,7);
+insert into books_subjects(book,subject) values (5,3);
+insert into books_subjects(book,subject) values (5,6);
+insert into books_subjects(book,subject) values (6,6);
+insert into books_subjects(book,subject) values (6,5);
+insert into books_subjects(book,subject) values (7,7);
+insert into books_subjects(book,subject) values (7,8);
+insert into books_subjects(book,subject) values (8,8);
+insert into books_subjects(book,subject) values (8,9);
