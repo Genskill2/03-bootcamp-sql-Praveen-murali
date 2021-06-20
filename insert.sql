@@ -16,7 +16,7 @@ insert into books (title , publisher) values ('The UNIX Programming Environment'
 insert into books (title , publisher) values ('Cryptonomicon' , 2);
 insert into books (title , publisher) values ('Deep Work' , 3);
 insert into books (title , publisher) values ('Atomic Habits' , 4);
-insert into books (title , publisher) values ('The City And The City' , 5);
+insert into books (title , publisher) values ('The City and The City' , 5);
 insert into books (title , publisher) values ('The Great War for Civilisation' , 6);
 
 
